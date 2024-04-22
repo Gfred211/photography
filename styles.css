@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-banner {
+  background-image: url(images/hero-banner-image.jpg);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-banner h1 {
+  font-size: 48px;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+  margin: 0;
+}
+
+nav a{
+ 
+}
+
+.menu {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.menu h2 {
+  font-size: 36px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu li {
+  font-size: 24px;
+  margin: 30px;
+  width: 200px;
+  text-align: left;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.menu li:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.menu li span {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+  font-size: 36px;
+}
+
+.testimonials {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.testimonials h2 {
+  font-size: 36px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  text-align: left;
+}
+
+.testimonial img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.testimonial p {
+}
+
+
+
